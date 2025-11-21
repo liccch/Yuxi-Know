@@ -18,6 +18,10 @@ MCP_SERVERS = {
         "url": "https://remote.mcpservers.org/sequentialthinking/mcp",
         "transport": "streamable_http",
     },
+    "mcp-server-chart": {
+        "url": "https://mcp.api-inference.modelscope.net/9993ae42524c4c/mcp",
+        "transport": "streamable_http",
+    },
     # 这些 stdio 的 MCP server 需要在本地启动，启动的时候需要安装对应的包，需要时间
     # "time": {
     #     "command": "uvx",

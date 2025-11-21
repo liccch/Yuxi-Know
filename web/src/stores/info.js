@@ -11,15 +11,15 @@ export const useInfoStore = defineStore('info', () => {
 
   // 计算属性 - 组织信息
   const organization = computed(() => infoConfig.value.organization || {
-    name: "江南语析",
+    name: "翼知",
     logo: "/favicon.svg",
     avatar: "/avatar.jpg"
   })
 
   // 计算属性 - 品牌信息
   const branding = computed(() => infoConfig.value.branding || {
-    name: "Yuxi-Know",
-    title: "Yuxi-Know",
+    name: "1-Knowledge",
+    title: "1-Knowledge",
     subtitle: "大模型驱动的知识库管理工具",
     description: "结合知识库与知识图谱，提供更准确、更全面的回答"
   })
@@ -131,7 +131,7 @@ export const useInfoStore = defineStore('info', () => {
     }
   }
 
-    return {
+  return {
     // 状态
     infoConfig,
     isLoading,
